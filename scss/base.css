@@ -1,0 +1,87 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #fff;
+  font-family: "Nanum Gothic", "Malgun Gothic", "굴림", Gulim, Helvetica, AppleGothic, sans-serif !important;
+}
+
+#wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+}
+
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, tr, input, select, textarea {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  display: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img, fieldset, abbr, acronym {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #666;
+}
+
+input[type=button] {
+  cursor: pointer;
+}
+
+input[type=button]:hover {
+  color: white;
+  background-color: #6D6D70;
+}
+
+/* 체크박스 버그 */
+checkbox, radio {
+  width: 13px;
+  height: 13px;
+  vertical-align: top;
+}
+
+img {
+  display: block;
+}
+
+img.inline {
+  display: inline-block;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border: 3px solid #fff;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: block;
+  height: 10px;
+  background: #efefef;
+}
+
+::-webkit-scrollbar-track {
+  background: #efefef;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}/*# sourceMappingURL=base.css.map */
